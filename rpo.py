@@ -17,7 +17,7 @@ print("""
 --------------------------------------------------------------------""")
 
 def main():
-	assert __file__ == sys.argv[0]
+	assert __file__ != sys.argv[0]
 	try:
 		url = sys.argv[1]
 	except IndexError:
